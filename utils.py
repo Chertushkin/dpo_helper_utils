@@ -1,5 +1,5 @@
 from typing import Dict
-from typing import Callable, Union, List
+from typing import Callable, Union, List, Tuple
 import torch
 from torch.nn.utils.rnn import pad_sequence
 
