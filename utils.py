@@ -1,5 +1,6 @@
 from typing import Dict
 from typing import Callable, Union, List
+import torch
 from torch.nn.utils.rnn import pad_sequence
 
 def tokenize_batch_element(prompt: str, chosen: str, rejected: str, truncation_mode: str, tokenizer, max_length: int, max_prompt_length: int) -> Dict:
